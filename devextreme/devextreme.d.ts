@@ -1777,6 +1777,8 @@ declare module DevExpress.ui {
         applyButtonText?: string;
         /** The text displayed on the Cancel button. */
         cancelButtonText?: string;
+        /** Specifies the way an end-user applies the selected date. */
+        applyValueMode?: string;
     }
     /** A date box widget. */
     export class dxDateBox extends dxDropDownEditor {
